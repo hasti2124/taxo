@@ -12,6 +12,9 @@
         android:theme="@style/Theme.TexoApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
             android:name=".HistoryActivity"
             android:exported="false" />
         <activity
