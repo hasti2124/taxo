@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3034"
+    tools:context=".GetcarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/h6"
+        android:elevation="30dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/elipse2"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ellipse"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="144 Broughton Ave,Bloomfiled"
+                android:textColor="#545B63"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="50dp"/>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/h4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrance"
+                android:textColor="#545B63"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"/>
+        </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="110dp"
+                android:src="@drawable/ellipse3"
+                android:layout_marginLeft="25dp"/>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="117dp"
+                android:src="@drawable/ellipse4"
+                android:layout_marginLeft="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="115dp"
+                    android:layout_marginLeft="70dp"
+                    android:text="800 E 180th st, the Bronx"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/h4"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/h7"/>
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/toyoto"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="45dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="Comfort"
+                        android:textColor="#545B63"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="63dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="18 $"
+                        android:textColor="#545B63"/>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/h7"/>
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/toyoto"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"/>
+
+                        <TextView
+                            android:layout_width="42dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="45dp"
+                            android:text="4 x 4 "
+                            android:textColor="#545B63"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="63dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="34 $ "
+                            android:textColor="#545B63"/>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/h7"/>
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/toyoto"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="Comfort"
+                            android:textColor="#FFC000"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="63dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="15 $"
+                            android:textColor="#FFC000"/>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/h7"/>
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/toyoto"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="Pickup "
+                            android:textColor="#545B63"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="63dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="25 $"
+                            android:textColor="#545B63"/>
+                    </FrameLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+</FrameLayout>
